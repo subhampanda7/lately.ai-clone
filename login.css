@@ -1,0 +1,116 @@
+      /* navbar start*/
+      #navmaindiv {
+        width: 100%;
+        background-color: white;
+        position: sticky;
+        top: 0px;
+        padding: 15px 0px;
+        box-shadow: rgba(33, 35, 38, 0.473) 0px 10px 10px -10px;
+      }
+      #nav {
+        width: 85%;
+        height: auto;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(9, 1fr);
+        grid-template-rows: auto;
+        gap: 10px;
+        align-items: center;
+        background-color: white;
+      }
+
+      /* #nav > div {
+  border: 1px solid blue;
+} */
+      #nav > div > a > img {
+        width: 80%;
+      }
+
+      /* navbar end*/
+
+      /* Log in start */
+
+      #mainloghead {
+        border: 1px solid #e4f2ea;
+
+        width: 100%;
+        height: 100vh;
+        background-color: #e4f2ea;
+      }
+
+      #loghead {
+        width: 38%;
+        height: auto;
+        /* border: 1px solid blue; */
+        margin: auto;
+        margin-top: 90px;
+        font-family: "Nunito Sans", sans-serif;
+      }
+      /* #loghead > div {
+        border: 1px solid red;
+      } */
+      #loghead > div > h1 {
+        font-size: 38px;
+        font-family: "Nunito Sans", sans-serif;
+        font-weight: 500;
+        margin-bottom: -15px;
+      }
+      #loghead > div > h1 + p {
+        font-size: 20px;
+        color: #444;
+
+        /* position: relative;
+        bottom: 20px; */
+      }
+      form > input {
+        font-size: 18px;
+      }
+      form > label {
+        font-size: 15px;
+        font-weight: bold;
+        margin-right: 12px;
+        color: #444;
+      }
+      input[type="password"] {
+        margin-left: 23px;
+      }
+      input[type="email"],
+      input[type="password"] {
+        padding-right: 180px;
+        margin-top: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border: none;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+          rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+      }
+      input[type="email"]:hover,
+      input[type="password"]:hover {
+        box-shadow: rgba(63, 214, 3, 0.356) 0px 0px 0px 3px;
+      }
+      input[type="submit"] {
+        margin-top: 25px;
+        margin-left: 155px;
+        color: white;
+        border: none;
+        background-color: rgb(105, 100, 100);
+        padding: 10px 24px;
+        font-size: 14px;
+        border-radius: 6px;
+      }
+      input[type="submit"]:hover {
+        background-color: rgb(87, 81, 81);
+      }
+      #loghead > div > a {
+        position: relative;
+        text-align: end;
+        bottom: 50px;
+        right: 20px;
+        color: #3782af;
+      }
+
+      #loghead > div:nth-child(1) {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.354);
+      }
+
+      /* Log in end */
