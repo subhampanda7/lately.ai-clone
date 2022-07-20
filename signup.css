@@ -1,0 +1,113 @@
+#head {
+    /* border: 1px solid blue; */
+    background-color: #f7f9fb;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, auto);
+    color: rgba(0, 0, 0, 0.555);
+    padding-bottom: 100px;
+  }
+  /* #in{
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    border: 1px solid red;
+  }
+  #in > div{
+    border: 1px solid red;
+    
+  } */
+  #form1 {
+    font-size: 18px;
+    font-family: Verdana, Arial, Tahoma, Serif;
+    font-weight: 20px;
+    padding-left: 99px;
+    padding-top: 70px;
+  }
+  #form1 > h3 {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 32px;
+    color: rgba(0, 0, 0, 0.662);
+  }
+  #form1 > p {
+    font-family: "Nunito Sans", sans-serif;
+    margin-top: -25px;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    font-size: 18px;
+    margin: 12px 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 340px;
+    border: 1.5px solid rgba(255, 192, 203, 0.74);
+    border-radius: 6px;
+  }
+
+  input[type="submit"] {
+    padding: 10px 40px;
+    background-color: #00c66b;
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+  }
+  input:hover {
+    border: 2px solid pink;
+    box-shadow: rgba(219, 11, 209, 0.089) 0px 7px 29px 0px;
+  }
+
+  /* form 2 div work starts */
+  #form2 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 200px);
+    padding: 180px 0px;
+  }
+
+  #form2 > div {
+    width: 470px;
+    /* border: 1px solid blue; */
+    display: grid;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 25px;
+    padding: 0px 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+
+  #form2 > div > img {
+    width: 25%;
+    position: relative;
+    bottom: 60px;
+    left: 170px;
+    margin-bottom: -45px;
+  }
+  #form21 {
+    border-radius: 10px 10px 0px 0px;
+  }
+  #form22 {
+    background-color: #f2f2f2;
+    border-radius: 0px 0px 10px 10px;
+  }
+
+  #help {
+    position: fixed;
+
+    display: flex;
+    justify-content: end;
+    bottom: 10px;
+    right: 20px;
+  }
+  #help > button {
+    padding: 15px 24px;
+    border-radius: 999rem;
+    border: none;
+    background-color: #20c76e;
+    color: #16492e;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: "Nunito Sans", sans-serif;
+  }

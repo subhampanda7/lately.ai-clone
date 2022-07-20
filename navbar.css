@@ -1,0 +1,132 @@
+/* navtop start */
+
+#navtop {
+  background-color: #3f6b96;
+  text-align: center;
+  color: white;
+  font-family: "Mark simonson proxima nova", sans-serif;
+  padding: 1px 0px;
+}
+
+/* navtop end */
+
+/* navbar start*/
+#navmaindiv {
+  background-color: white;
+  position: sticky;
+  top: 0px;
+  padding: 20px 0px;
+}
+#nav {
+  width: 85%;
+  height: auto;
+  /* border: 1px solid red; */
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: auto;
+  gap: 10px;
+  align-items: center;
+  color: #174c43;
+  background-color: white;
+  font-weight: 600;
+  font-family: Arial, sans-serif;
+}
+
+/* #nav > div {
+  border: 1px solid blue;
+} */
+#nav > div > img {
+  width: 70%;
+}
+#bt1 {
+  border: 1px solid #00c66b;
+  background-color: white;
+  padding: 15px 10px;
+  font-weight: 700;
+  color: #00c66b;
+  border-radius: 5px;
+}
+#bt1:hover {
+  background-color: #00c66b;
+  color: white;
+  
+}
+#bt2 {
+  color: #666;
+  font-weight: 700;
+  padding: 15px 15px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+}
+#bt2:hover {
+  color: #00c66b;
+}
+
+/* navbar complete*/
+
+/* *************************************************************** */
+
+  /* stop guess start */
+  #stop {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 3fr repeat(2, 1fr);
+    grid-template-rows: auto;
+    background-color: #174c43;
+    padding-top: 15px;
+  }
+  /* #stop > div {
+    border: 1px solid blue;
+  } */
+  #stop > div:nth-child(1) {
+    padding: 30px 0px;
+    padding-left: 250px;
+    font-size: 24px;
+    font-family: "Noto Sans", sans-serif;
+    line-height: 32px;
+    color: #fff;
+  }
+  #stop > div > button {
+    border: 1px solid #00c66b;
+    background-color: #174c43;
+    padding: 12px 24px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 5px;
+  }
+  #stop > div > button:hover {
+    background-color: #00c66b;
+  }
+  #stop > div > img {
+    width: 100%;
+    margin-top: 30px;
+    padding-left: 60px;
+  }
+  /* stop guess stop */
+
+  #amerifastmain {
+    padding: 6px 170px;
+    /* border: 1px solid blue; */
+  }
+
+  #amerifast {
+    width: 100%;
+    height: 70px;
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    align-items: center;
+    gap: 10px;
+  }
+
+  /* #amerifast > div {
+    border: 1px solid red;
+  } */
+  #amerifast > div > img {
+    width: 80%;
+  }
+
+  /* ************************************************************************ */
