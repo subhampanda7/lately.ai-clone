@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Log-In</title>
-    
-    <link rel="stylesheet" href="./login.css">
+
+    <link rel="stylesheet" href="./login.css" />
   </head>
   <body>
     <!-- NAVBAR -->
@@ -47,11 +47,48 @@
           </form>
         </div>
         <div>
-          <a href="https://dashboard.lately.ai/forgotpassword" target="_blank">
-            <p>Forgot Password?</p></a
-          >
+          <p>Forgot Password?</p>
         </div>
       </div>
     </div>
   </body>
 </html>
+
+<script>
+  let dataArr = JSON.parse(localStorage.getItem("signupdata")) || [];
+  //   console.log(dataArr[0].name)
+
+  let myname = JSON.parse(localStorage.getItem("name")) || [];
+
+  document.querySelector("form").addEventListener("submit", logindata);
+
+  function logindata(event) {
+    event.preventDefault();
+
+    let loginObj = {
+      email: document.querySelector("#email").value,
+      pass: document.querySelector("#password").value,
+    };
+
+    if (
+      document.querySelector("#email").value == "" ||
+      document.querySelector("#password").value == ""
+    ) {
+      alert("Fill all Inputs");
+      return;
+    }
+    let flag = false;
+    dataArr.forEach(function (ele) {
+      if (ele.email == loginObj.email && ele.pass1 == loginObj.pass) {
+        flag = true;
+        alert("Log-In Sucessful");
+        window.location.href = "index.html";
+        localStorage.setItem("name", JSON.stringify(ele.name));
+      }
+    });
+
+    if (flag == false) {
+      alert("Wrong Credential");
+    }
+  }
+</script>

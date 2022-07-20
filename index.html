@@ -44,7 +44,8 @@
          
         </div>
         <div>
-          <button id="bt2">LOG IN</button>
+          <a href="./login.html"><button id="bt2"> <span id="showname">LOG IN</span> </button></a>
+          
         </div>
       </div>
     </div>
@@ -136,3 +137,10 @@
     <!-- STOP GUESS STOP WITH BOTTOM IMAGE -->
   </body>
 </html>
+
+<script>
+  let myname= JSON.parse(localStorage.getItem("name")) || "LOG IN"
+  console.log(myname);
+
+  document.querySelector("#showname").innerHTML= myname
+</script>
