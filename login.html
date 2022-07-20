@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log-In</title>
+
+    <link rel="stylesheet" href="./login.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <div id="navmaindiv">
+      <div id="nav">
+        <div>
+          <!--Keep Empty -->
+        </div>
+        <div>
+          <a href="./index.html">
+            <img
+              src="https://global-uploads.webflow.com/5fd3c52ce5bc147a1f007ca4/5fd8f444e5106349b4570e0b_lately-nav-logo.svg"
+              alt=""
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- NAVBAR -->
+
+    <div id="mainloghead">
+      <div id="loghead">
+        <div>
+          <h1>Log In</h1>
+          <p>Hello, Superyou.</p>
+        </div>
+        <div>
+          <form action="">
+            <label for="">Email or Username</label>
+            <input type="email" id="email" placeholder="Email or Username" />
+            <br />
+            <label for="">Enter Password</label>
+            <input type="password" id="password" placeholder="Enter Password" />
+            <br />
+
+            <input type="Submit" value="LOG IN" />
+          </form>
+        </div>
+        <div>
+          <p>Forgot Password?</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script>
+  let dataArr = JSON.parse(localStorage.getItem("signupdata")) || [];
+  //   console.log(dataArr[0].name)
+
+  let myname = JSON.parse(localStorage.getItem("name")) || [];
+
+  document.querySelector("form").addEventListener("submit", logindata);
+
+  function logindata(event) {
+    event.preventDefault();
+
+    let loginObj = {
+      email: document.querySelector("#email").value,
+      pass: document.querySelector("#password").value,
+    };
+
+    if (
+      document.querySelector("#email").value == "" ||
+      document.querySelector("#password").value == ""
+    ) {
+      alert("Fill all Inputs");
+      return;
+    }
+    let flag = false;
+    dataArr.forEach(function (ele) {
+      if (ele.email == loginObj.email && ele.pass1 == loginObj.pass) {
+        flag = true;
+        alert("Log-In Sucessful");
+        window.location.href = "index.html";
+        localStorage.setItem("name", JSON.stringify(ele.name));
+      }
+    });
+
+    if (flag == false) {
+      alert("Wrong Credential");
+    }
+  }
+</script>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-Up</title>
+    <link rel="stylesheet" href="./signup.css">
+  </head>
+  <body>
+    <div id="head">
+      <!-- <div  id="in"> -->
+      <div id="form1">
+        <h3>Welcome to Lately!</h3>
+        <p id="q">
+          The world's most human A.I. is waiting for you - start your
+          <b>free 7-day trial</b> today!
+        </p>
+        <form action="">
+          <label for="">Your Name</label> <br />
+          <input type="text" id="name" /> <br />
+          <label for="">Email Address</label> <br />
+          <input type="email" id="email" /> <br />
+          <label for="">Password (must be at least 8 characters)</label>
+          <br />
+          <input pattern=".{8,}" type="password" id="password1" /> <br />
+          <label for="">Confirm Password</label> <br />
+          <input pattern=".{8,}" type="Password" id="password2" /> <br />
+          <input type="Submit" value="NEXT" />
+        </form>
+      </div>
+      <div id="form2">
+        <div id="form21">
+          <h3>
+            <b style="color: #00c66b"
+              >Lately is an A.I.-powered content creation engine</b
+            ><b>
+              that learns your brand voice and which words will generate you the
+              most leads.
+            </b>
+          </h3>
+        </div>
+        <div id="form22">
+          <img src="https://app.lately.ai/img/flask.be3f323f.gif" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div id="help">
+      <button>? Help</button>
+    </div>
+  </body>
+</html>
+
+<script>
+  document.querySelector("form").addEventListener("submit", data);
+
+  let dataArr = JSON.parse(localStorage.getItem("signupdata")) || [];
+  
+
+  function data(event) {
+    event.preventDefault();
+
+    let obj = {
+      name: document.querySelector("#name").value,
+      email: document.querySelector("#email").value,
+      pass1: document.querySelector("#password1").value,
+      pass2: document.querySelector("#password2").value,
+    };
+
+    dataArr.push(obj);
+
+    if (
+      document.querySelector("#name").value == "" ||
+      document.querySelector("#email").value == "" ||
+      document.querySelector("#password1").value == "" ||
+      document.querySelector("#password2").value == ""
+    ) {
+      alert("Fill all Inputs");
+      return;
+    } else {
+      alert("Sign-Up Sucessfull");
+      window.location.href = "index.html";
+    }
+
+    localStorage.setItem("signupdata", JSON.stringify(dataArr));
+  }
+</script>
