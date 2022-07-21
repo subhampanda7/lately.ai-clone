@@ -125,3 +125,186 @@
 }
 
 /* AI GENERATE WORK STOPS */
+
+
+      /* MAGNIFY WORK START */
+      #magnifymain {
+        width: 100%;
+        height: auto;
+        /* border: 1px solid red; */
+        display: flex;
+        align-items: center;
+        padding: 50px 0px;
+        background-color: #e8f8f2;
+      }
+      #magnify {
+        width: 70%;
+        height: auto;
+        /* border: 1px solid blue; */
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 40%60%);
+      }
+      /* #magnify > div {
+        border: 1px solid red;
+      } */
+      #magnify > div > img {
+        width: 83%;
+        margin-top: 30px;
+        margin-left: 20px;
+      }
+      #magnify > div > h1 {
+        font-family: "Noto Sans", sans-serif;
+        color: #133d36;
+        font-size: 37px;
+        line-height: 42px;
+      }
+      #magnify > div > p {
+        font-family: "Noto Sans", sans-serif;
+        color: #5f5f5f;
+        font-size: 20px;
+        line-height: 26px;
+        text-align: left;
+        margin-top: -13px;
+      }
+      #magnify > div > button {
+        padding: 10px 30px;
+        border-radius: 4px;
+        background-color: #00c66b;
+        font-family: "Noto Sans", sans-serif;
+        color: #fff;
+        font-size: 15px;
+        line-height: 22px;
+        font-weight: 600;
+        border: none;
+        margin-top: 5px;
+      }
+      #magnify > div > button:hover {
+        background-color: #fff;
+        color: #00c66b;
+        border: 1px solid #00c66b;
+      }
+      #connect-image > img {
+        width: 13%;
+        position: relative;
+        top: 90px;
+        right: 470px;
+      }
+
+      /* MAGNIFY WORK STOP */
+
+      /* GENERATE MEANINGFUL WORK START */
+
+      #generatemeaningfulmain{
+        width: 100%;
+        height: auto;
+        /* border: 1px solid red; */
+        display: flex;
+        align-items: center;
+        padding: 60px 0px;
+        background-color: #174c43;
+      }
+
+      #generatemeaningful {
+        width: 70%;
+        height: auto;
+        /* border: 1px solid red; */
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto;
+      }
+      /* #generatemeaningful > div {
+        border: 1px solid blue;
+      } */
+      #generatemeaningful1 {
+        display: grid;
+        grid-template-columns: repeat(3, 12%60%20%);
+        /* grid-template-rows: ; */
+        font-family: "Noto Sans", sans-serif;
+       
+      }
+      /* #generatemeaningful1 div {
+        border: 1px solid greenyellow;
+      } */
+      #generatemeaningful > div > h1 {
+        width: 90%;
+        font-family: "Noto Sans", sans-serif;
+        color: #00c66b;
+        font-size: 34px;
+        line-height: 40px;
+        font-weight: 700;
+        text-align: left;
+      }
+      #generatemeaningful > div > p {
+        font-family: "Noto Sans", sans-serif;
+        color: #fff;
+        font-size: 24px;
+        line-height: 30px;
+       
+        margin-top: -2px;
+      }
+      #eric {
+        font-family: "Noto Sans", sans-serif;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 600;
+      }
+      #eric1 {
+        font-family: "Noto Sans", sans-serif;
+        color: #fff;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: left;
+        margin-top: -15px;
+      }
+      #ericimg1 {
+        width: 90%;
+        border-radius: 100%;
+      }
+      #ericimg2{
+        width: 70%;
+        margin-left: 40px;
+       margin-top: 20px;
+      }
+
+      /* GENERATE MEANINGFUL WORK END  */
+
+        /* READY TO START WORK START */
+
+        #readytostart {
+          width: 100%;
+          height: auto;
+          /* border: 1px solid blue; */
+          background-image: url(https://global-uploads.webflow.com/5fd3c52ce5bc147a1f007ca4/5fecf40bea5148a41aa207a7_pattern-light.svg);
+          background-color: #e8f8f2;
+          padding: 16px 0px;
+        }
+        #readytostart > div {
+          margin: auto;
+        }
+        #readytostart > div > h1 {
+          /* border: 1px solid red; */
+          margin: auto;
+          margin-top: 60px;
+          font-family: "Noto Sans", sans-serif;
+          font-size: 36px;
+          line-height: 44px;
+          width: 60%;
+          text-align: center;
+          color: #133d36;
+        }
+        #readytostart > button {
+          border: 2px solid #00c66b;
+          background-color: white;
+          padding: 15px 30px;
+          font-weight: 700;
+          color: #00c66b;
+          border-radius: 5px;
+          margin: 10px 45%;
+        }
+        #readytostart > button:hover {
+          background-color: #00c66b;
+          color: white;
+        }
+        /* READY TO START WORK END */
