@@ -1,0 +1,127 @@
+/* HOW IT WORKS STOPS */
+#how {
+  /* border: 1px solid red; */
+  width: 78%;
+  height: 400px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 60%29%);
+  gap: 70px;
+}
+/* #how > div {
+        border: 1px solid blue;
+      } */
+#how > div > video {
+  width: 100%;
+  height: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#how > div > h1 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 39px;
+  margin-top: -1px;
+}
+#how > div > p {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  text-align: left;
+  color: #5f5f5f;
+}
+#howmain {
+  /* border: 1px solid red; */
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 65px 0px;
+  background-color: #e8f8f2;
+}
+
+/* HOW IT WORKS STOPS */
+
+/* AI GENERATE WORK STARTS */
+
+#aimain {
+  width: 100%;
+  height: auto;
+  /* border: 1px solid blue; */
+  display: grid;
+}
+
+#aimain > div > h1 {
+  /* border: 1px solid red; */
+  font-family: "Noto Sans", sans-serif;
+  color: #133d36;
+  font-size: 46px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: -1px;
+}
+#aigenerated {
+  width: 71%;
+  height: auto;
+  /* border: 1px solid blue; */
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 220px);
+}
+#aigenerated > div {
+  /* border: 1px solid blue; */
+  display: grid;
+  grid-template-columns: repeat(2, 33%56%);
+  grid-template-rows: auto;
+  gap: 20px;
+}
+/* #aigenerated > div > div {
+            border: 1px solid red;
+          } */
+#aigenerated > div > div > img {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+#aigenerated > div > div > h3 {
+  font-family: "Noto Sans", sans-serif;
+  color: #133d36;
+  font-size: 22px;
+  line-height: 24px;
+  text-align: left;
+  margin-top: 35px;
+}
+#aigenerated > div > div > p {
+  font-family: "Noto Sans", sans-serif;
+  color: #5f5f5f;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: -15px;
+}
+
+#aibottom {
+  width: 55%;
+  height: auto;
+  /* border: 2px solid red; */
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #2d2d2d;
+
+  font-family: "Noto Sans", sans-serif;
+  border-radius: 10px;
+  background-color: #e8f8f2;
+}
+#aibottom > p > b {
+  font-size: 22px;
+}
+#aibottom > p:nth-child(2) {
+  margin-top: -10px;
+}
+
+/* AI GENERATE WORK STOPS */
