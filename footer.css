@@ -1,0 +1,92 @@
+/* FOOTER WORK START  */
+#footer {
+  width: 78%;
+  height: auto;
+  /* border: 1px solid blue; */
+  margin: auto;
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+}
+#footer > div {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.11);
+  padding-bottom: 20px;
+  /* border: 1px solid red; */
+  font-family: "Mark simonson proxima nova", sans-serif;
+  color: #7d7d7d;
+  font-size: 14px;
+  text-decoration: none;
+  line-height: 25px;
+}
+#footer h5 {
+  margin-left: 38px;
+  font-family: ProximaNova, sans-serif;
+  color: #7d7d7d;
+  font-size: 14px;
+  margin-bottom: -13px;
+}
+
+/* FOOTER WORK STOP  */
+
+/* FOOTER DOWN WORK START */
+
+#footerdown {
+  width: 78%;
+  height: auto;
+  /* border: 1px solid red; */
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  gap: 55%;
+  padding: 15px 0px;
+}
+/* #footerdown > div {
+  border: 1px solid blue;
+} */
+#footerdownimg {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: 30px;
+  gap: 10px;
+}
+#footerdownimg > div {
+  margin-top: 23px;
+  /* border: 1px solid yellow; */
+}
+#footerdown1 > a > img {
+  width: 50%;
+  margin-top: 20px;
+  margin-left: 35px;
+}
+
+/* FOOTER DOWN WORK STOP */
+
+/* LAST FOOTER WORK STARTS */
+
+#lastfootermain {
+  width: 100%;
+  height: auto;
+  /* border: 1px solid red; */
+  background-color: #174c43;
+}
+
+#lastfooter {
+  width: 78%;
+  height: 65px;
+  /* border: 1px solid red; */
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#lastfooter > div {
+  /* border: 1px solid blue; */
+  font-family: "Mark simonson proxima nova", sans-serif;
+  color: hsla(0, 0%, 100%, 0.5);
+  font-size: 13px;
+}
+
+/* LAST FOOTER WORK STOPS */

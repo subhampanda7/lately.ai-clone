@@ -1,0 +1,185 @@
+/* AI FUELED WORK STARTS */
+
+#aifueled {
+  width: 100%;
+  height: auto;
+  border: 1px solid #174c43;
+  margin: auto;
+  text-align: center;
+  background-color: #174c43;
+}
+#aifueled > p {
+  color: #00c66b;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: "Noto Sans", sans-serif;
+  margin-top: 70px;
+}
+#aifueled > h1 {
+  font-size: 47px;
+  font-family: "Noto Sans", sans-serif;
+  line-height: 32px;
+  color: #fff;
+  margin-top: -10px;
+  padding-bottom: 70px;
+}
+
+#aifueledimg {
+  width: 55%;
+  height: auto;
+  margin: auto;
+  margin-top: 60px;
+}
+#aifueledimg > img {
+  width: 100%;
+  height: 100%;
+}
+
+/* AI FUELED WORK STOPS */
+
+/* YEPPERS WORK STARTS  */
+
+#yepper {
+  width: 55%;
+  height: auto;
+  /* border: 1px solid red; */
+  margin: auto;
+  padding-bottom: 45px;
+}
+#yepper > h2 {
+  color: #174c43;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 700;
+  font-family: "Noto Sans", sans-serif;
+  margin-bottom: -5px;
+}
+#yepper p {
+  color: #5f5f5f;
+  font-size: 17.5px;
+  line-height: 24px;
+  font-family: "Noto Sans", sans-serif;
+}
+#visiontopimage {
+  width: 66%;
+  /* border: 1px solid blue; */
+  height: auto;
+  margin: auto;
+}
+#visiontopimage > img {
+  width: 100%;
+}
+
+/* YEPPERS WORK STOPS  */
+
+/* CONTACT US WORK START */
+
+#contactusmain {
+  width: 100%;
+  height: auto;
+  /* border: 1px solid red; */
+  background-color: #e8f8f2;
+  padding-top: 120px;
+  padding-bottom: 80px;
+}
+
+#contactusmain > div > h1 {
+  text-align: center;
+  margin-top: -60px;
+  color: #174c43;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 35px;
+  margin-bottom: 50px;
+}
+
+#contactus {
+  width: 64%;
+  height: auto;
+  /* border: 1px solid blue; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat();
+  gap: 30px;
+  margin: auto;
+}
+
+#contactus > div {
+  /* border: 1px solid red; */
+  display: grid;
+  align-items: center;
+  text-align: center;
+  background-image: url(https://global-uploads.webflow.com/5fd3c52ce5bc147a1f007ca4/5fecf40bea5148a41aa207a7_pattern-light.svg);
+
+  padding: 50px 0px;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+#contactus > div > h3 {
+  font-family: "Open Sans", sans-serif;
+  color: #174c43;
+  font-size: 24px;
+  margin-top: -5px;
+}
+#contactus > div > a {
+  font-family: "Open Sans", sans-serif;
+  color: #00c66b;
+  font-size: 20px;
+  margin-top: -8px;
+}
+#contactus > div > a:hover {
+  color: black;
+}
+#contactusimg {
+  width: 100%;
+  height: 70px;
+  /* border: 1px solid yellow; */
+  background-color: #e8f8f2;
+  background-image: url(https://global-uploads.webflow.com/5fd3c52ce5bc147a1f007ca4/5fd7dd370ef398070c9aa574_home-hc3-background-image.png);
+}
+
+/* CONTACT US WORK STOP */
+
+/* CARRIERS WORK START */
+
+#careersmain {
+  width: 100%;
+  height: auto;
+  /* border: 1px solid red; */
+  padding: 38px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.094);
+}
+
+#careers {
+  width: 40%;
+  height: auto;
+  /* border: 1px solid red; */
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 70%40%);
+  grid-template-rows: auto;
+}
+/* #careers > div {
+    border: 1px solid blue;
+  } */
+#careers > div > h1 {
+  font-family: "Noto Sans", sans-serif;
+  color: #174c43;
+  font-size: 45px;
+  line-height: 50px;
+}
+#careers > div > button {
+  border: 2px solid #00c66b;
+  background-color: white;
+  padding: 13px 34px;
+  font-weight: 700;
+  color: #00c66b;
+  border-radius: 5px;
+  margin: 33px 0px;
+}
+#careers > div > button:hover {
+  background-color: #00c66b;
+  color: white;
+}
+
+/* CARRIERS WORK STOP */
